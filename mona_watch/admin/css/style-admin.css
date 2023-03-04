@@ -1,0 +1,67 @@
+:root {
+    --priamry-color: #e2ba48;
+}
+
+*body {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family:BodyArial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Body */
+.wrapper {
+    border: 1px solid #000;
+}
+.welcome-admin {
+    font-size: 3rem;
+    color: var(--priamry-color);
+    text-align: center;
+}
+
+.menu-manage {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+
+.manage-list__link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin: 0 10px;
+}
+
+/* Table Category */
+
+
+/* Login Admin */
+.wrapper-login {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.login-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 22px 10px;
+}
